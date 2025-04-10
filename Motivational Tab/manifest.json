@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Motivational Tab",
+    "version": "1.0",
+    "description": "Displays a daily motivational quote or affirmation on each new tab.",
+    "host_permissions": [
+        "https://zenquotes.io/"
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
